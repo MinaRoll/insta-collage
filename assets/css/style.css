@@ -25,3 +25,149 @@ body#index{
     width: 400px;
 
 }
+
+body#home{
+    background-color: #323232;
+}
+.showInput{
+    background-image: url(https://cdn0.iconfinder.com/data/icons/basic-ui-elements-colored/700/010_x-3-128.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right;
+}
+/* pagina inicio*/
+p{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #DFDDDD;
+}
+.navbar{
+    margin: 0;
+}
+.btn-primary{
+    background-color: transparent;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+}
+.btn.btn-primary.dropdown-toggle:hover{
+    background-color: transparent;
+}
+.btn.btn-primary.dropdown-toggle:focus{
+    background-color: transparent;
+}
+.logIn{
+    text-align: center;
+}
+.logIn input{
+    width: 90%;
+    margin: 0 auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:rgba(255,255,255,0.1);
+    color: #fff;
+}
+.logIn input::-webkit-input-placeholder {
+    color:    #fff;
+}
+.logIn button{
+    width: 90%;
+    margin: 0 auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    background-color:transparent;
+    color: #fff;
+}
+
+.logIn p{
+    font-size: 11px;
+}
+.line div{
+    display: inline-block;
+}
+.facebook .lines{
+    background-color: rgba(255,255,255,0.5);
+    width: 40%;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.facebook button{
+    width: 90%;
+    margin: 0 auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+    background-color:transparent;
+    color: #fff;
+}
+.facebook i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+footer#final1{
+    background-color: rgba(255,255,255,0.3);
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px; 
+}
+
+
+/* Segunda página */
+.separador h4{
+    color: lightblue;
+    text-align: center;
+}
+.recientes img{
+    width: 110px;
+    margin: 0;
+}
+.collage img{
+    max-width: 130px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
+.collage{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.marco-foto {
+  min-height: 270px;
+  width: 100%;
+  border-bottom: 2px solid black;
+  
+}
+img#foto1, img#foto2, img#foto3, img#foto4, img#foto5, img#foto6, img#foto7, img#foto8, img#foto9{
+    margin: 0 auto;
+    padding: 0;
+    display: inline;
+}
+#contenido .row{
+    margin: 15px 0;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+    color: #DCD6D6;
+}
+footer a:hover{
+    text-decoration: none;
+    color: lightblue;
+    
+}
